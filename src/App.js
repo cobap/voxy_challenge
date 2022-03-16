@@ -25,7 +25,7 @@ const App = () => {
     
       console.log('Não digitou nada');
       setQuantidadePalavras(-1);
-      setTextoAjuda('Você precisa digitar uma palavra. E espaços não contam!')
+      setTextoAjuda('Type at least one word. Also whitespaces does not count.')
     }
     else {
 
