@@ -23,9 +23,9 @@ const App = () => {
     // Check if there is any input from our end user
     if (texto.replace(/\s+/g, '').trim() === '') {
     
-      console.log('Não digitou nada');
       setQuantidadePalavras(-1);
-      setTextoAjuda('Type at least one word. Also whitespaces does not count.')
+      setTextoAjuda('Type at least one word. Also whitespaces does not count.');
+
     }
     else {
 
@@ -63,7 +63,7 @@ const App = () => {
         <Typography variant="h1" component="div" gutterBottom> Contador de palavras / Word Counter 🔮 </Typography>
         <Typography variant='p'> Stop counting manually that long tweet and send it right awa...</Typography>
         
-        <TextField id='caixa_texto' label='Digite seu texto aqui' multiline rows={10} sx={{ marginTop: 2, marginBottom: 2, width: 600 }}
+        <TextField id='caixa_texto' label='Insert your long long long sentence here' multiline rows={10} sx={{ marginTop: 2, marginBottom: 2, width: 600 }}
           onChange={(evento) => setTexto(evento.target.value)}
         error={quantidadePalavras === -1} helperText={textoAjuda}
         />
