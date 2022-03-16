@@ -28,7 +28,9 @@ Para mais informações do deploy via create-react-app, consultar [deployment](h
 
 ## Sobre o app
 
-Contem um componente react simples que é responsável pela contagem de palavras. CSS direto em arquivo, sem modularização
+Contem um componente react simples que é responsável pela contagem de palavras. CSS direto em arquivo, sem modularização.
+
+Você pode encontrar a demo desse website em: https://contador-palavras-voxy.herokuapp.com/
 
 ## Dúvidas & Problemas
 
