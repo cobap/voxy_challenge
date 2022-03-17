@@ -60,7 +60,7 @@ const App = () => {
 
   return (      
       <Box className='main'>
-        <Typography variant="h1" component="div" gutterBottom> Contador de palavras / Word Counter 🔮 </Typography>
+        <Typography variant="h1" component="div" gutterBottom> Word Counter 🔮 </Typography>
         <Typography variant='p'> Stop counting manually that long tweet and send it right awa...</Typography>
         
         <TextField id='caixa_texto' label='Insert your long long long sentence here' multiline rows={10} sx={{ marginTop: 2, marginBottom: 2, width: 600 }}
